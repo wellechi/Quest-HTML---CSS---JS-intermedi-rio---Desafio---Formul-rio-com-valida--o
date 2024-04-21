@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest HTML/CSS/JS</title>
+    <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+    <img src="src/img/bg-repeat.jpg" alt="">
+    <main class="content">
+        <div class="text">
+           <h1>Ficou com dúvida? <br> Nos mande uma mensagem!</h1> 
+           <p class="textoUm">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24hrs.</p>
+        </div>
+        <div class="form">
+            
+            <input type="text" placeholder="Nome completo*" id="meuInput">
+            <div id="elemento"> </div>
+
+            <input type="email" placeholder="Email *" id="meuInput">
+            <div id="elemento"> </div>
+
+            <input type="tel" placeholder="Telefone *" id="meuInput">
+            <div id="elemento"> </div>
+
+            <input type="text" class="mensagem" placeholder="Mensagem *" id="meuInput">
+            <div id="elemento"> </div>
+
+            <span>*campos obrigatórios</span>
+
+            <button onclick="verificarPreenchimento()" id="button">Enviar</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
